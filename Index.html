@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+ <title>Jarvis</title>
+ <link rel="stylesheet" href="style.css">
+ <!-- Excell data fetch script down.-->
+ <script src="https://cdn.rawgit.com/Keyang/node-csvtojson/d41f44aa/browser/csvtojson.min.js"></script>
+</head>
+<body>
+<div style="border:solid;border-radius:5px; background-color:white;" id="headelm">
+<span class="heading">Jarvis</span><span class="settings" onclick="open_settings()" id="setting">âš™ï¸</span>
+<div class="sets"><p onclick="theme()" id="setss">Dark mode</p><p id="turnon" onclick="jarviss()">Turn on Jarvis</p></div>
+</div>
+<br>
+<center>
+<div class="motherclass">
+<div id="mother" align="left" class="motherboard">
+<div align="right"><p class="me" style="color:white;">ðŸš§Website Last updated 25 Apr 2022.<br><u style="color:yellow;" onclick="update_alert()">What's new?</u></p></div>
+<br>
+<div class="reply">I am Jarvis ðŸ‘‹</div>
+<br>
+<div class="reply">Try sayingðŸŽ¤<br> ..."Open tic tac toe"!</div>
+</div>
+<br>
+<input id="startmsg" class="text" type="value" placeholder="Start conversation..." oninput="speechtext()">
+<button onclick="sendit()" class="sendmsg" id="mic">ðŸŽ¤</button>
+</div>
+</center>
+<br>
+<br>
+<br>
+<u style="color:red" onclick="contact()">Contact us!</u>
+<br>
+<a id="call" style="display:none;" href="tel:"></a>
+<a id="opensms" style="display:none" href="sms:"></a>
+<a href="whatsapp://send?abid=&text=Hello" id="walink" style="display:none"></a>
+ <script src="script.js"></script>
+</body>
+</html>
