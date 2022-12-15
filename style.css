@@ -1,0 +1,115 @@
+body {
+ text-align: center;
+ user-select:none;
+}
+
+.motherclass {
+border-radius: 10px;
+background-color: lightBlue;
+height: 100%;
+border: solid black;
+width: 99%;
+padding-left: 3px;
+padding-top: 10px;
+max-height:600px;
+}
+
+.motherboard {
+overflow:scroll;
+height:400px;
+}
+
+.sendmsg {
+font-size: 20px;
+font-weight: bold;
+background-color: white;
+color: black;
+outline: none;
+border: solid 1px black;
+border-radius: 10px;
+height: 35px;
+width: 15%;
+margin-top: 0px;
+}
+
+.text {
+margin-top: 0px;
+margin-bottom: 2px;
+display: inline-block;
+height: 30px;
+border: solid 1px black;
+width: 70%;
+border-radius: 4px;
+outline:none;
+font-weight: bold;
+padding-left: 20px;
+background-color: white;
+}
+
+.me {
+display:table;
+text-align: left;
+margin-top: 2px;
+margin: 0 8px -15px 0;
+max-width:50%;
+background-color: green;
+color: white;
+border-radius:4px 0px 4px 4px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.reply {
+margin-top: 2px;
+margin-bottom: -15px;
+margin-left: 8px;
+max-width:50%;
+display: table;
+background-color: white;
+border-radius:0 4px 4px 4px;
+padding-left: 10px;
+padding-right: 5px;
+}
+
+.replydark {
+margin-top: 2px;
+margin-bottom: -15px;
+margin-left: 8px;
+max-width:50%;
+display: table;
+background-color: black;
+border-radius:0 4px 4px 4px;
+padding-left: 10px;
+padding-right: 5px;
+}
+
+.settings,.heading {
+font-weight: bold;
+font-size: 30px;
+background-color: none;
+}
+
+.heading {
+position: relative;
+right: 25%;
+}
+
+.settings {
+position: relative;
+left: 25%;
+background-color: none;
+border-radius: 20px;
+}
+
+.sets {
+user-select:none;
+position: absolute;
+right: 20px;
+top: 50px;
+font-weight: bold;
+background-color: yellow;
+border-radius: 4px;
+font-size: 20px;
+width: 150px;
+box-shadow: 0px 1px 6px 0px;
+}
