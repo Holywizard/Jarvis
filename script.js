@@ -39,6 +39,13 @@ var dataPoint = [11, 22, 33];
 var dataOutput = ["A", "B", "C"];
 var rmodeFilter = false;
 
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    // Run the code you want to execute when the enter button is clicked here
+   sendit();
+  }
+});
+
 //Send Button systems
 function sendit() {
  if (message.value != "") {
